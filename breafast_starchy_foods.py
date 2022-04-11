@@ -12,3 +12,28 @@ breakfast_starchy_foods.append({
     "description": "白米， 南瓜切块",
     "scope": ALL_FAMILY
 })
+
+breakfast_starchy_foods.append({
+    "name": "海苔饭团",
+    "description": "糙米+海苔碎，火鸡肉片，cheese，海苔包裹保鲜膜包紧",
+    "scope": ALL_FAMILY
+})
+
+breakfast_starchy_foods.append({
+    "name": "地瓜粥",
+    "description": "白米，地瓜切块",
+    "scope": ALL_FAMILY
+})
+
+
+breakfast_starchy_foods.append({
+    "name": "枸杞山药粥",
+    "description": "白米，山药切块，煮完最后加枸杞",
+    "scope": ALL_FAMILY
+})
+
+breakfast_starchy_foods.append({
+    "name": "枸杞玉米糊",
+    "description": "水烧开，玉米糊加水搅拌倒入，不停搅拌",
+    "scope": ALL_FAMILY
+})

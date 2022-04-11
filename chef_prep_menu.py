@@ -43,14 +43,14 @@ def get_dish(is_my_wife=False, dishes=[]):
         for dish in dishes:
             if "scope" in dish and dish["scope"] == ONLY_MY_WIFE:
                 my_wife_dishes.append(dish)
-        dish_index = random.randrange(0, len(my_wife_dishes)-1)
+        dish_index = random.randrange(0, len(my_wife_dishes))
         return my_wife_dishes[dish_index]
     else:
         my_dishes = []
         for dish in dishes:
             if "scope" not in dish or dish["scope"] != ONLY_MY_WIFE:
                 my_dishes.append(dish)
-        dish_index = random.randrange(0, len(my_dishes)-1)
+        dish_index = random.randrange(0, len(my_dishes))
         return my_dishes[dish_index]
 
 
@@ -92,6 +92,7 @@ def get_weekly_menu():
         daily_menu["lunch"]["main"] = get_dish(is_my_wife=False, dishes=lunch_main_dishes)
         daily_menu["lunch"]["side"] = get_dish(is_my_wife=False, dishes=lunch_side_dishes)
         daily_menu["lunch"]["starchy_food"] = get_dish(is_my_wife=False, dishes=lunch_starchy_foods)
+    return daily_menus
 
 
 weekly_menu = get_weekly_menu()
