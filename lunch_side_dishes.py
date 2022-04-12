@@ -24,3 +24,9 @@ lunch_side_dishes.append({
     "description": "木耳泡发，焯水，黄瓜拍碎，加香醋加生抽加蒜蓉",
     "scope": ALL_FAMILY
 })
+
+lunch_side_dishes.append({
+    "name": "辣炒白菜",
+    "description": "干辣椒切碎，加蒜蓉加油炒香，下白菜翻炒",
+    "scope": ALL_FAMILY
+})

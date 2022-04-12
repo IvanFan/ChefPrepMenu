@@ -54,3 +54,9 @@ lunch_main_dishes.append({
     "description": "羊肉切块，加油加孜然黑胡椒白胡椒辣椒碎干煸",
     "scope": ALL_FAMILY
 })
+
+lunch_main_dishes.append({
+    "name": "煎鸡胸肉",
+    "description": "盐水浸泡，厨房纸吸水，加油正反面煎，加黑胡椒盐",
+    "scope": ALL_FAMILY
+})
