@@ -5,5 +5,5 @@ It contains all dishes that I can cook.
 Generate next week's menu with only one click!   
 
 The result is like:
-![Alt text](food menu.png?raw=true "Food Menu")
+![Alt text](https://github.com/IvanFan/ChefPrepMenu/blob/main/food%20menu.png)
 
