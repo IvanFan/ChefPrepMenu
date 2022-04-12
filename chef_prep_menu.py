@@ -5,6 +5,7 @@ from lunch_side_dishes import lunch_side_dishes
 from breafast_starchy_foods import breakfast_starchy_foods
 from lunch_starchy_foods import lunch_starchy_foods
 from scope import ALL_FAMILY, ONLY_MY_WIFE, ONLY_ME
+from tabulate import tabulate
 
 
 
@@ -95,12 +96,28 @@ def get_weekly_menu():
     return daily_menus
 
 
+weekdays = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+]
 weekly_menu = get_weekly_menu()
 print("#############################")
 print("Breakfast & Lunch Weekly Menu")
 print("#############################")
-for menu in weekly_menu:
-    print(menu)
+for i in range(len(weekly_menu)):
+    curr_menu = weekly_menu[i]
+    print("############# {} Menu #############".format(weekdays[i]))
+    print(tabulate(
+        [
+            ['Wife', curr_menu["breakfast"]["starchy_food"]["wife"]["name"], curr_menu["breakfast"]["dishes"]["wife"]["name"], '', curr_menu["lunch"]["main"]["name"], curr_menu["lunch"]["side"]["name"], curr_menu["lunch"]["starchy_food"]["name"]],
+            ['Me', curr_menu["breakfast"]["starchy_food"]["me"]["name"], curr_menu["breakfast"]["dishes"]["wife"]["name"], '','','','']
+        ],
+        headers=['Breakfast', 'Starchy Food', 'Dish', 'Lunch', 'Main', 'Side', 'Starchy Food'],
+        tablefmt='orgtbl'))
+print("############# End #############")
 
 
 
