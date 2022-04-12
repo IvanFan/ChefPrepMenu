@@ -49,7 +49,7 @@ def get_dish(is_my_wife=False, dishes=[]):
     else:
         my_dishes = []
         for dish in dishes:
-            if "scope" not in dish or dish["scope"] != ONLY_MY_WIFE:
+            if "scope" in dish and dish["scope"] != ONLY_MY_WIFE:
                 my_dishes.append(dish)
         dish_index = random.randrange(0, len(my_dishes))
         return my_dishes[dish_index]
@@ -113,7 +113,7 @@ for i in range(len(weekly_menu)):
     print(tabulate(
         [
             ['Wife', curr_menu["breakfast"]["starchy_food"]["wife"]["name"], curr_menu["breakfast"]["dishes"]["wife"]["name"], '', curr_menu["lunch"]["main"]["name"], curr_menu["lunch"]["side"]["name"], curr_menu["lunch"]["starchy_food"]["name"]],
-            ['Me', curr_menu["breakfast"]["starchy_food"]["me"]["name"], curr_menu["breakfast"]["dishes"]["wife"]["name"], '','','','']
+            ['Me', curr_menu["breakfast"]["starchy_food"]["me"]["name"], curr_menu["breakfast"]["dishes"]["me"]["name"], '','','','']
         ],
         headers=['Breakfast', 'Starchy Food', 'Dish', 'Lunch', 'Main', 'Side', 'Starchy Food'],
         tablefmt='orgtbl'))
