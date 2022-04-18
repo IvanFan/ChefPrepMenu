@@ -60,3 +60,24 @@ lunch_main_dishes.append({
     "description": "盐水浸泡，厨房纸吸水，加油正反面煎，加黑胡椒盐",
     "scope": ALL_FAMILY
 })
+
+lunch_main_dishes.append({
+    "name": "meat ball 意面",
+    "description": "盐水煮意面12分钟，捞出放凉水，锅里加罐装番茄，加meat ball，加黑胡椒，香料，cheese碎 意面搅拌",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "虾仁毛豆",
+    "description": "盐水浸泡冷冻虾仁和毛豆，加辣椒粉鸡精味淋黑胡椒，最后勾芡",
+    "scope": ALL_FAMILY
+})
+
+lunch_main_dishes.append({
+    "name": "红烧羊腿",
+    "description": "羊腿加葱和香料焯水去腥气，放胡萝卜孜然进高压锅炖煮",
+    "scope": ALL_FAMILY
+})
+
+

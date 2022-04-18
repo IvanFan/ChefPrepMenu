@@ -37,3 +37,10 @@ breakfast_starchy_foods.append({
     "description": "水烧开，玉米糊加水搅拌倒入，不停搅拌",
     "scope": ALL_FAMILY
 })
+
+
+breakfast_starchy_foods.append({
+    "name": "面包片",
+    "description": "烤面包片加cheese",
+    "scope": ONLY_ME
+})

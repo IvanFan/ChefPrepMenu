@@ -20,7 +20,7 @@ from tabulate import tabulate
 # 1 main dish and 1 side dish every day.
 # 1 starchy food every day e.g. brown rice, taco or noodles
 
-def get_breakfast_starchy_food(is_my_wife=False):
+def get_breakfast_starchy_food(is_my_wife=False, is_me=False):
     if is_my_wife:
         special_weight_for_my_wife = random.randrange(0, 10)
         if special_weight_for_my_wife >= 5:
@@ -32,9 +32,13 @@ def get_breakfast_starchy_food(is_my_wife=False):
 
     dishes = []
     for dish in breakfast_starchy_foods:
-        if "scope" not in dish or dish["scope"] == ALL_FAMILY:
-            dishes.append(dish)
-    dish_index = random.randrange(0, len(dishes)-1)
+        if is_me:
+            if "scope" not in dish or dish["scope"] == ONLY_ME:
+                dishes.append(dish)
+        else:
+            if "scope" not in dish or dish["scope"] == ALL_FAMILY:
+                dishes.append(dish)
+    dish_index = random.randrange(0, len(dishes))
     return dishes[dish_index]
 
 
@@ -81,7 +85,7 @@ def get_weekly_menu():
         daily_menu["breakfast"]["starchy_food"]["wife"] = get_breakfast_starchy_food(is_my_wife=True)
         if "scope" in daily_menu["breakfast"]["starchy_food"]["wife"] and\
                 daily_menu["breakfast"]["starchy_food"]["wife"]["scope"] == ONLY_MY_WIFE:
-            daily_menu["breakfast"]["starchy_food"]["me"] = get_breakfast_starchy_food()
+            daily_menu["breakfast"]["starchy_food"]["me"] = get_breakfast_starchy_food(is_my_wife=False, is_me=True)
         else:
             daily_menu["breakfast"]["starchy_food"]["me"] = \
                 daily_menu["breakfast"]["starchy_food"]["wife"]
