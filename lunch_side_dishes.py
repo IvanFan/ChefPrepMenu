@@ -30,3 +30,41 @@ lunch_side_dishes.append({
     "description": "干辣椒切碎，加蒜蓉加油炒香，下白菜翻炒",
     "scope": ALL_FAMILY
 })
+
+lunch_side_dishes.append({
+    "name": "番茄炒蛋",
+    "description": "番茄炒蛋 加糖",
+    "scope": ALL_FAMILY
+})
+
+lunch_side_dishes.append({
+    "name": "干锅花菜",
+    "description": "花菜，加黑木耳，加油加蒜容稍微一炒",
+    "scope": ALL_FAMILY
+})
+
+lunch_side_dishes.append({
+    "name": "香菇青菜",
+    "description": "青菜加油加香菇",
+    "scope": ALL_FAMILY
+})
+
+lunch_side_dishes.append({
+    "name": "蒸扇贝",
+    "description": "清蒸扇贝",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_side_dishes.append({
+    "name": "辣炒嘎拉",
+    "description": "嘎拉加红酒/白酒调味，加辣椒碎",
+    "scope": ALL_FAMILY
+})
+
+lunch_side_dishes.append({
+    "name": "干煎芦笋",
+    "description": "干煎芦笋",
+    "scope": ALL_FAMILY
+})
+

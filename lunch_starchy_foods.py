@@ -32,3 +32,37 @@ lunch_starchy_foods.append({
     "description": "蒜蓉炒虾仁，西兰花焯水，意面焯水，混合加牛奶加奶酪加黑胡椒白胡椒",
     "scope": ALL_FAMILY
 })
+
+lunch_starchy_foods.append({
+    "name": "虾仁意面",
+    "description": "盐水煮意面12分钟，捞出放凉水，锅里加罐装番茄，加虾仁，加黑胡椒，香料，cheese碎 意面搅拌",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_starchy_foods.append({
+    "name": "meat ball 意面",
+    "description": "盐水煮意面12分钟，捞出放凉水，锅里加罐装番茄，加meat ball，加黑胡椒，香料，cheese碎 意面搅拌",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_starchy_foods.append({
+    "name": "番茄达鲁乌冬面",
+    "description": "番茄炒蛋盖浇乌冬面",
+    "scope": ALL_FAMILY
+})
+
+lunch_starchy_foods.append({
+    "name": "乌冬面",
+    "description": "乌冬面",
+    "scope": ALL_FAMILY
+})
+
+lunch_starchy_foods.append({
+    "name": "自制混沌",
+    "description": "周末包好 开水下锅",
+    "scope": ALL_FAMILY
+})
+
+

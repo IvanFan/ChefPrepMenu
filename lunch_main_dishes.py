@@ -32,12 +32,6 @@ lunch_main_dishes.append({
 })
 
 lunch_main_dishes.append({
-    "name": "番茄炒蛋",
-    "description": "番茄炒蛋 加糖",
-    "scope": ALL_FAMILY
-})
-
-lunch_main_dishes.append({
     "name": "土豆炖鸡",
     "description": "先炒鸡肉，加香菇，香菇泡的水，土豆， 炖",
     "scope": ALL_FAMILY
@@ -61,12 +55,6 @@ lunch_main_dishes.append({
     "scope": ALL_FAMILY
 })
 
-lunch_main_dishes.append({
-    "name": "meat ball 意面",
-    "description": "盐水煮意面12分钟，捞出放凉水，锅里加罐装番茄，加meat ball，加黑胡椒，香料，cheese碎 意面搅拌",
-    "scope": ALL_FAMILY
-})
-
 
 lunch_main_dishes.append({
     "name": "虾仁毛豆",
@@ -80,4 +68,74 @@ lunch_main_dishes.append({
     "scope": ALL_FAMILY
 })
 
+lunch_main_dishes.append({
+    "name": "清蒸黄花鱼",
+    "description": "黄花鱼去鳞清理干净，加葱姜蒸，单独调鱼汁",
+    "scope": ALL_FAMILY
+})
 
+
+lunch_main_dishes.append({
+    "name": "咖喱牛肉",
+    "description": "牛肉焯水，加牛肉咖喱块胡萝卜土豆，少量水，最后加黑胡椒",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "鸡肉咖喱",
+    "description": "加鸡胸/鸡腿肉 咖喱块胡萝卜土豆，少量水，最后加黑胡椒",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "口水鸡",
+    "description": "鸡腿加葱姜焯水， 放凉水，切开，单独调酱汁",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "土豆炖牛肉",
+    "description": "牛肉焯水去腥，加土豆，红烧",
+    "scope": ALL_FAMILY
+})
+
+lunch_main_dishes.append({
+    "name": "香菇炖鸡",
+    "description": "鸡腿肉去皮，切块，加香菇炖",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "板栗烧鸡",
+    "description": "鸡腿肉/鸡胸，切块，加板栗红炖",
+    "scope": ALL_FAMILY
+})
+
+lunch_main_dishes.append({
+    "name": "油焖大虾",
+    "description": "买好虾，开背去虾线，上过干煎",
+    "scope": ALL_FAMILY
+})
+
+
+lunch_main_dishes.append({
+    "name": "照烧鸡肉",
+    "description": "鸡胸或者鸡腿，自调照烧酱汁加青椒炒",
+    "scope": ALL_FAMILY
+})
+
+lunch_main_dishes.append({
+    "name": "黑椒牛肉",
+    "description": "牛肉切粒，调黑椒酱汁炒，加青椒",
+    "scope": ALL_FAMILY
+})
+
+lunch_main_dishes.append({
+    "name": "辣炒小龙虾",
+    "description": "小龙虾化冻红烧去腥加辣",
+    "scope": ALL_FAMILY
+})
