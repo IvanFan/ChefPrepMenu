@@ -23,7 +23,7 @@ from tabulate import tabulate
 def get_breakfast_starchy_food(is_my_wife=False, is_me=False):
     if is_my_wife:
         special_weight_for_my_wife = random.randrange(0, 10)
-        if special_weight_for_my_wife >= 7:
+        if special_weight_for_my_wife >= 6:
             return {
                 "name": "4in1",
                 "description": "a special combination of oats, very healthy",

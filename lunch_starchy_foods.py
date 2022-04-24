@@ -28,12 +28,6 @@ lunch_starchy_foods.append({
 })
 
 lunch_starchy_foods.append({
-    "name": "虾仁奶酪海鲜意面",
-    "description": "蒜蓉炒虾仁，西兰花焯水，意面焯水，混合加牛奶加奶酪加黑胡椒白胡椒",
-    "scope": ALL_FAMILY
-})
-
-lunch_starchy_foods.append({
     "name": "虾仁意面",
     "description": "盐水煮意面12分钟，捞出放凉水，锅里加罐装番茄，加虾仁，加黑胡椒，香料，cheese碎 意面搅拌",
     "scope": ALL_FAMILY

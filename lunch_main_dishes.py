@@ -139,3 +139,9 @@ lunch_main_dishes.append({
     "description": "小龙虾化冻红烧去腥加辣",
     "scope": ALL_FAMILY
 })
+
+lunch_main_dishes.append({
+    "name": "珍珠丸子",
+    "description": "泡糯米，鸡胸/鸡腿肉打碎加生抽加白胡椒，成团裹满糯米，上锅蒸",
+    "scope": ALL_FAMILY
+})
